@@ -48,7 +48,19 @@ header::before {
     background-color: #FAAB78;
     z-index: 0;
 }
-
+@media (min-width: 768px) {
+    header::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80%; 
+        height: 100%;
+        background-color: #FAAB78;
+        clip-path: none; 
+        z-index: 0;
+    }
+}
 header > * {
     position: relative;
     z-index: 1;
