@@ -74,12 +74,20 @@ nav a:hover {
         align-items: center;
     }
 
-    nav a {
+     nav a {
         margin-left: 0;
-        margin-bottom: 10px; 
-        font-size: 1em; 
+        margin-bottom: 10px;  
+        font-size: 0.9em;  
+        padding: 8px;  
+        text-align: center;  
     }
 }
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 0.8em;  
+        padding: 6px; 
+    }
 
 .footer-logo img {
     height: 150px; 
