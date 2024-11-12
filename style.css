@@ -203,7 +203,7 @@ footer {
 
 @media (max-width: 768px) {
 	
-	header::before {
+    header::before {
         width: 100%;  
         clip-path: polygon(100% 0, 0 100%, 100% 100%); 
     }
@@ -212,7 +212,7 @@ footer {
         padding: 15px 20px; 
         font-size: 1.2em;
     }
-	
+    
     .footer-container {
         flex-direction: column;
         align-items: center;
