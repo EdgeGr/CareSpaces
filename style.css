@@ -204,8 +204,14 @@ footer {
 @media (max-width: 768px) {
 	
     header::before {
-        width: 100%;  
-        clip-path: polygon(100% 0, 0 100%, 100% 100%); 
+        content: '';  
+        position: absolute;
+        top: 0;
+        right: 50%;  
+        width: 2px;  
+        height: 100%;
+        background-color: #FAAB78;  
+        z-index: 0;
     }
 
     header {
